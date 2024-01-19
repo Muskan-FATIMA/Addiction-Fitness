@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Addication</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+      <img src="./assets/fitlogo.jpg" alt="">
+      <div>Fitness Addication</div>
+    </div>
+    <!-- mid box for navigation bar -->
+    <div class="mid">
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+      <button class="btn">Register</button>
+      <button class="btn">Email</button>
+    </div>
+  </header>
+  <div class="container">
+    <form action="server.php">
+      <h2>Join the best gym of JSR now</h2>
+      <input class="input" type="text" placeholder="Enter Name ">
+      <input class="input" type="number" placeholder=" Enter Age">
+      <input class="input" type="text" placeholder=" Enter Gender">
+      <input class="input" type="text" placeholder=" Enter Locality">
+      <input class="input" type="text" placeholder=" Enter phone Number">
+      <input class="input" type="text" placeholder=" Enter Email Id">
+      <div class="form-btn">
+      <button class="form-btns">Submit</button>
+       <button class="form-btns" type="reset">Reset</button> 
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
